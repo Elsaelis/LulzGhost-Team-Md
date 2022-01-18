@@ -87,7 +87,7 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname) =>{
 	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya Alphabot-Md, bot ini adalah Beta Multi-Device Whatsapp. 
+saya LulzGhost-BOT, bot ini adalah Beta Multi-Device Whatsapp. 
 Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
 lapor owner agar segera di perbaiki 🙏      
 `
@@ -95,16 +95,16 @@ lapor owner agar segera di perbaiki 🙏
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname} 😖*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu :*
 
-╭─❒ 「 Bot Info 」 
+╭─❒ 「 Bot Info 」💉 
 ├ ${prefix}owner
 ├ ${prefix}rules
 ├ ${prefix}botstatus
 ╰❒ ${prefix}donate
 
 
-╭─❒ 「 Owner 」 
+╭─❒ 「 Owner 」 💉
 ├ < evaluate
 ├ > evaluate
 ├ $ exec
@@ -119,7 +119,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}del [pesan bot]
 ╰❒ ${prefix}setppbot [reply image]
 
-╭─❒ 「 Group 」 
+╭─❒ 「 Group 」 💉
 ├ ${prefix}antilink [on/off]
 ├ ${prefix}revoke
 ├ ${prefix}leave
@@ -131,14 +131,14 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}tagall [text]
 ╰❒ ${prefix}hidetag [text]
 
-╭─❒ 「 Anime 」 
+╭─❒ 「 Anime 」 💉
 ├ ${prefix}quotesanime
 ├ ${prefix}anime [query]
 ├ ${prefix}manga [query]
 ╰❒ ${prefix}character [query]
 
 
-╭─❒ 「 Search 」 
+╭─❒ 「 Search 」 💉
 ├ ${prefix}ytsearch [query]
 ├ ${prefix}film [query]
 ├ ${prefix}wallpaper [query]
@@ -150,7 +150,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}pinterest [query]
 
 
-╭─❒ 「 Converter 」 
+╭─❒ 「 Converter 」 💉
 ├ ${prefix}stiker [reply image]
 ├ ${prefix}tourl [image/video]
 ├ ${prefix}togif [sticker]
@@ -158,7 +158,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒${prefix}toimg [reply sticker]
 
 
-╭─❒ 「 Image Effect 」 
+╭─❒ 「 Image Effect 」 💉
 ├ ${prefix}wanted [reply image]
 ├ ${prefix}utatoo [reply image]
 ├ ${prefix}unsharpen [reply image]
@@ -214,7 +214,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}invertgreyscale [reply image]
 
 
-╭─❒ 「 Download 」 
+╭─❒ 「 Download 」 💉
 ├ ${prefix}tiktok [link]
 ├ ${prefix}tiktoknowm [link]
 ├ ${prefix}tiktokwm [link]
@@ -238,7 +238,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}twitter link
 
 
-╭─❒ 「 Random Anime 」
+╭─❒ 「 Random Anime 」💉
 ├ ${prefix}loli
 ├ ${prefix}neko
 ├ ${prefix}waifu
@@ -271,7 +271,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}dance
 ╰❒ ${prefix}cringe
 
-╭─❒ 「 Nsfw & Sfw 」
+╭─❒ 「 Nsfw & Sfw 」💉
 ├ ${prefix}ahegao
 ├ ${prefix}ass
 ├ ${prefix}bdsm
@@ -351,7 +351,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}cuddle
 ╰❒ ${prefix}zettai
 
-╭─❒ 「 Textpro Menu 」
+╭─❒ 「 Textpro Menu 」💉
 ├ ${prefix}halloween2 text|text2
 ├ ${prefix}horror text|text2
 ├ ${prefix}game8bit text|text2
@@ -534,7 +534,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}metalg text
 
 
-╭─❒ 「 Others 」
+╭─❒ 「 Others 」💉
 ├ ${prefix}kalkulator
 ├ ${prefix}smeme [text]
 ├ ${prefix}memegen [text|text]
@@ -542,12 +542,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╭─❒ 「 TqTo 」 
 ├ My God
 ├ My Parents
-├ Fatih A.
-├ Ferdi
-├ DikaArdnt
-├ Mhankbarbar
-├ Nurutomo
-├ Rashid
 ├ ZeeoneOfc
 ├ Penyedia Module
 ╰❒ And All Support
@@ -581,12 +575,12 @@ Sanksi: *PERMANENT BLOCK*
 ➡️ Bot ini menggunakan multi prefix. Berarti anda bisa menggunakan prefix #, . , Dan prefix wajar lainnya.
 
 🗯️ Kak, kok syaa chat owner tidak direspon?
-➡️ Owner hanya merespon pertanyaan seputar bot Dan kendala eror, tidak untuk kenalan ataupun mengemis script.
+➡️ Owner hanya merespon pertanyaan seputar bot Dan kendala error, tidak untuk kenalan ataupun mengemis script.
 
 
 Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
 
-⚠️ Segala kebijakan dan ketentuan Alphabot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
+⚠️ Segala kebijakan dan ketentuan di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
 Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Alphabot
 😖🙏
@@ -608,8 +602,7 @@ Goodbye`
 exports.source = () =>{
 return`*── 「 SOURCE 」 ──*
 
-Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://github.com/zeeoneofc/Alphabot-Md
+Base : https://github.com/koleksibot
 `
 }
 exports.tos = (ownernomer) => {
