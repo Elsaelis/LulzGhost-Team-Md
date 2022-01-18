@@ -366,13 +366,13 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 alpha.sendMessage(m.chat, { contacts: { displayName: 'Zeeone Ofc.', contacts: [{ vcard }] } }, { quoted: m })
             }
             break
-            case 'Peraturan':
+            case 'rules':
             reply(lang.rules(prefix))
             break
             case 'sc': case 'source':
             reply(lang.source())
             break
-            case 'sedekah': case 'donate':
+            case 'donasi': case 'donate':
             var but = [
           {
             "urlButton": {
@@ -633,7 +633,7 @@ break
                 if (!m.isGroup) return reply(lang.groupOnly())
                 if (!isGroupAdmins) return reply(lang.adminOnly())
                 if (!isBotAdmins) return reply(lang.botNotAdmin())
-                let tekss = `══✪〘 *👥 Gabut* 〙✪══\n\n➲ *Message : ${q ? q : 'Nothing'}*\n\n`
+                let tekss = `══✪〘 *👥 Mention All* 〙✪══\n\n➲ *Message : ${q ? q : 'Nothing'}*\n\n`
 		      	for (let mem of participants) {
 		            tekss += `࿃➡️ @${mem.id.split('@')[0]}\n`
 				}
@@ -692,7 +692,7 @@ break
             case 'out':
                 if (!m.isGroup) return reply(lang.groupOnly())
                 if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
-               reply('Selamat Tinggal 👋').then(async res => await alpha.groupLeave(from))
+               reply('Sayonara~ 👋').then(async res => await alpha.groupLeave(from))
             break
             case 'group': case 'grup':
                 if (!m.isGroup) return reply(lang.groupOnly())
@@ -774,7 +774,7 @@ var but = [
           {
             "quickReplyButton": {
               "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'sedekah'
+"id": 'donate'
             }
           },
           {
@@ -810,7 +810,7 @@ var but = [
           {
             "quickReplyButton": {
               "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'sedekah'
+"id": 'donate'
             }
           },
           {
@@ -846,7 +846,7 @@ var but = [
           {
             "quickReplyButton": {
               "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'sedekah'
+"id": 'donate'
             }
           },
           {
@@ -884,7 +884,7 @@ case 'allmenu':
           {
             "quickReplyButton": {
               "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'sedekah'
+"id": 'donate'
             }
           },
           {
@@ -900,7 +900,7 @@ case 'allmenu':
             }
           }
         ]
-        await alpha.send5ButLoc(from, `Hai Ayang ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, but )
+        await alpha.send5ButLoc(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, but )
         break   
 case 'ownercmd': case'ownermenu':
  var ownercmd = await getBuffer(flaming+'Owner Menu')
@@ -921,7 +921,7 @@ case 'ownercmd': case'ownermenu':
           {
             "quickReplyButton": {
               "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'sedekah'
+"id": 'donate'
             }
           },
           {
@@ -1358,11 +1358,11 @@ var ytresult = '';
 ytresult += '「 *YOUTUBE SEARCH* 」'
 ytresult += '\n________________________\n\n'
 aramas.all.map((video) => {
-ytresult += ' Title: ' + video.title + '\n'
-ytresult += ' Link: ' + video.url + '\n'
-ytresult += ' Durasi: ' + video.timestamp + '\n'
-ytresult += ' Views: ' + video.views + '\n'
-ytresult += ' Upload: ' + video.ago + '\n________________________\n\n'
+ytresult += '🐣 Title: ' + video.title + '\n'
+ytresult += '🔗 Link: ' + video.url + '\n'
+ytresult += '⏳ Durasi: ' + video.timestamp + '\n'
+ytresult += '😎 Views: ' + video.views + '\n'
+ytresult += '⏰ Upload: ' + video.ago + '\n________________________\n\n'
 });
 ytresult += '*WHATSAPP-BOT*'
 alpha.sendMessage(from, {image: tbuff, caption: ytresult}, {quoted:m})
