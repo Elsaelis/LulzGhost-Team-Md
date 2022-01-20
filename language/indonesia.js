@@ -87,13 +87,11 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname) =>{
 	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya LulzGhost-BOT, bot ini adalah Beta Multi-Device Whatsapp. 
-Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
-lapor owner agar segera di perbaiki 🙏      
+saya LulzGhost-BOT      
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
-    return `*Selamat ${salam} ${pushname} 😖*
+    return `*Selamat ${salam} ${pushname} 😷*
 *⌚Time Server : ${time}*
 *📚 List-Menu :*
 
@@ -559,8 +557,10 @@ Sanksi: *❎ WARN/SOFT BLOCK*
 2. Jangan telepon bot. ☎️
 Sanksi: *❎ SOFT BLOCK*
 
-3. Jangan mengeksploitasi bot.😖
+3. Jangan mengeksploitasi bot.
 Sanksi: *PERMANENT BLOCK*
+
+4. Bot Aktif Jam 22:00 Sampai 08:00 Pagi
 
 🗯️ Bot tidak atau lambat merespon ?
 ➡️ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan. Tetap patuhi rules‼️
@@ -582,8 +582,7 @@ Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
 
 ⚠️ Segala kebijakan dan ketentuan di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Alphabot
-😖🙏
+Arigatou Gozaimasu! Untuk kalian user ramah
 `
 }
 exports.welcome = () =>{
