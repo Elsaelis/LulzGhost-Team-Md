@@ -74,7 +74,7 @@ exports.botNotAdmin = () => {
 
 exports.received = (pushname) => {
     return `
-Halo ${pushname}!
+Hallo ${pushname}!
 Terima kasih telah melapor, laporanmu akan kami segera terima.`
 }
 
@@ -87,7 +87,7 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname) =>{
 	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya LulzGhost-BOT      
+saya *LulzGhost-BOT 🤖*      
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
@@ -1083,12 +1083,6 @@ exports.tqto = () =>{
 	return`*Thanks To*
 • My God
 • My Parents
-• Fatih A.
-• Ferdi
-• DikaArdnt
-• Mhankbarbar
-• Nurutomo
-• Rashid
 • ZeeoneOfc
 • Penyedia Module
 • And All Support
