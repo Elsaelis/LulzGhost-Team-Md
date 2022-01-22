@@ -363,7 +363,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     + `ORG:Owner ${botname};\n` // the organization of the contact
                     + `TEL;type=CELL;type=VOICE;waid=${ownernomer}:${ownernomerr}\n`
                     + 'END:VCARD'
-                alpha.sendMessage(m.chat, { contacts: { displayName: 'Ahmad Ganteng.', contacts: [{ vcard }] } }, { quoted: m })
+                alpha.sendMessage(m.chat, { contacts: { displayName: 'Zeeone Ofc.', contacts: [{ vcard }] } }, { quoted: m })
             }
             break
             case 'rules':
@@ -376,20 +376,20 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             var but = [
           {
             "urlButton": {
-              "displayText": "Github BOT",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website BOT",              
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "Peraturan",
+              "displayText": "𝑅𝑢𝑙𝑒𝑠",
 "id": 'rules'
             }
           },
@@ -692,7 +692,7 @@ break
             case 'out':
                 if (!m.isGroup) return reply(lang.groupOnly())
                 if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
-               reply('Selamat Tinggal 👋').then(async res => await alpha.groupLeave(from))
+               reply('Sayonara~ 👋').then(async res => await alpha.groupLeave(from))
             break
             case 'group': case 'grup':
                 if (!m.isGroup) return reply(lang.groupOnly())
@@ -712,7 +712,7 @@ break
             case 'setmenu':{
             	if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
             const listhades = ['templateLocation', 'templateTenor']
-			alpha.sendList(from, 'Silakan Pilih Menu ?', `© ${ownername}`, salam + pushname, 'KLIK DISINI', [
+			alpha.sendList(from, 'Mau set menu bang ?', `© ${ownername}`, salam + pushname, 'KLIK DISINI', [
 							{
 								"title": "Set Menu-1",
 								"rows": [
@@ -760,13 +760,13 @@ if(m.isGroup){
 var but = [
           {
             "urlButton": {
-              "displayText": "Github BOT",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website BOT",              
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
             }
@@ -796,13 +796,13 @@ var but = [
          but = [
           {
             "urlButton": {
-              "displayText": "Github BOT",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website BOT",              
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
             }
@@ -832,13 +832,13 @@ var but = [
 var but = [
           {
             "urlButton": {
-              "displayText": "Github BOT",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website BOT",              
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
             }
@@ -870,13 +870,13 @@ case 'allmenu':
 	var but = [
           {
             "urlButton": {
-              "displayText": "Github BOT",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website BOT",              
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
             }
@@ -907,13 +907,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "Github BOT",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website BOT",              
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
             }
@@ -944,13 +944,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "Github BOT",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website BOT",              
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
             }
@@ -981,13 +981,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "Github BOT",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website BOT",              
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
             }
@@ -1018,13 +1018,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "Github BOT",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website BOT",              
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
             }
@@ -1055,13 +1055,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "Github BOT",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website BOT",              
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
             }
@@ -1092,13 +1092,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "Github BOT",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website BOT",              
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
             }
@@ -1129,13 +1129,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "Github BOT",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website BOT",              
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
             }
@@ -1166,13 +1166,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "Github BOT",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website BOT",              
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
             }
@@ -1203,13 +1203,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "Github BOT",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website BOT",              
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
             }
@@ -1240,13 +1240,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "Github BOT",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website BOT",              
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
             }
@@ -1278,13 +1278,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "Github BOT",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website BOT",              
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
             }
@@ -1316,13 +1316,13 @@ case 'nsfwcmd': case 'nsfwcommand':{
  var but = [
           {
             "urlButton": {
-              "displayText": "Github BOT",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website BOT",              
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
             }
