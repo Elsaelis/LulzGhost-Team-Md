@@ -90,17 +90,11 @@ exports.menunya = (salam, pushname) =>{
 saya *LulzGhost-BOT 🤖*      
 `
 }
-exports.listMenu = (time, salam, pushname, prefix) => {
-    return `*Selamat ${salam} ${pushname} 😷*
+exports.listMenu = (time, salam, prefix) => {
+    return `*Selamat ${salam} 😷*
 *⌚Time Server : ${time}*
 *📚 List-Menu :*
-
-╭─❒ 「 Bot Info 」💉 
-├ ${prefix}owner
-├ ${prefix}rules
-├ ${prefix}botstatus
-╰❒ ${prefix}donate
-
+*🗿 Nama Kamu : ${pushname}*
 
 ╭─❒ 「 Owner 」 💉
 ├ < evaluate
