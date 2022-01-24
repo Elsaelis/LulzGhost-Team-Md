@@ -119,11 +119,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 ╭─❒ 「 Group 」 💉
 ├ ${prefix}antilink [on/off]
-├ ${prefix}revoke
-├ ${prefix}leave
-├ ${prefix}add [62***]
-├ ${prefix}kick @tag
-├ ${prefix}leave
 ├ ${prefix}linkgc
 ├ ${prefix}group [open/close]
 ├ ${prefix}tagall [text]
@@ -641,11 +636,7 @@ return`*Owner*
 exports.group = (prefix) =>{
 	return`*Group* 
 • ${prefix}antilink [on/off]
-• ${prefix}revoke
-• ${prefix}leave
 • ${prefix}add [62***]
-• ${prefix}kick @tag
-• ${prefix}leave
 • ${prefix}linkgc
 • ${prefix}group [open/close]
 • ${prefix}tagall [text]
