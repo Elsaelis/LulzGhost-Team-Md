@@ -90,8 +90,8 @@ exports.menunya = (salam, pushname) =>{
 saya *LulzGhost-BOT 🤖*      
 `
 }
-exports.listMenu = (time, salam, prefix) => {
-    return `*Selamat ${salam} 😷*
+exports.listMenu = (time, salam, pushname, prefix) => {
+    return `*Selamat ${salam} ${pushname} 😷*
 *⌚Time Server : ${time}*
 *📚 List-Menu :*
 
