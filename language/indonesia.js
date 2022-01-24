@@ -86,8 +86,8 @@ exports.notNum = (q) => {
     return `"${q}", bukan angka!`
 }
 exports.menunya = (salam, pushname) =>{
-	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya *LulzGhost-BOT 🤖*      
+	return`Hai ${pushname} 🗿 selamat ${salam} ✨ , 
+saya *LulzGhostTeam-BOT 🤖*      
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
@@ -574,12 +574,11 @@ Arigatou Gozaimasu! Untuk kalian user ramah
 `
 }
 exports.welcome = () =>{
-	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 𝗄𝖺𝗄 🤗
+	return`Selamat Datang Di Grup
 	
 📛 𝖭𝖺𝗆𝖺 :
 🔞 𝖴𝗆𝗎𝗋 :
-🧑 𝖦𝖾𝗇𝖽𝖾𝗋 :
-🏙️ 𝖠𝗌𝗄𝗈𝗍 :
+📌 Status :
 ╰ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
 }
 exports.leave = () =>{
