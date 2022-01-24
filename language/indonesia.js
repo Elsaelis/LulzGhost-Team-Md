@@ -94,7 +94,6 @@ exports.listMenu = (time, salam, prefix) => {
     return `*Selamat ${salam} 😷*
 *⌚Time Server : ${time}*
 *📚 List-Menu :*
-*🗿 Nama Kamu : ${pushname}*
 
 ╭─❒ 「 Owner 」 💉
 ├ < evaluate
