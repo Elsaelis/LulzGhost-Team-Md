@@ -86,7 +86,7 @@ exports.notNum = (q) => {
     return `"${q}", bukan angka!`
 }
 exports.menunya = (salam, pushname) =>{
-	return`Hai ${pushname} 🗿 selamat ${salam} ✨ , 
+	return`Hai ${pushname} 🗿 selamat ${salam}  , 
 saya *LulzGhostTeam-BOT 🤖*      
 `
 }
