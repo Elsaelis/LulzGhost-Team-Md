@@ -765,7 +765,7 @@ var but = [
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "Website",              
               "url": `${myweb}`
 
             }
@@ -784,7 +784,7 @@ var but = [
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐿𝑖𝑠𝑡 𝑐𝑜𝑚𝑚𝑎𝑛𝑑",
+              "displayText": "𝑐𝑜𝑚𝑚𝑎𝑛𝑑",
 "id": 'command'
             }
           }
@@ -795,13 +795,13 @@ var but = [
          but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "Website",              
               "url": `${myweb}`
 
             }
@@ -875,7 +875,7 @@ case 'allmenu':
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "Website",              
               "url": `${myweb}`
 
             }
