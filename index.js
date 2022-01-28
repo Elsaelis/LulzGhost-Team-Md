@@ -759,7 +759,7 @@ if(m.isGroup){
 var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒",
               "url": `${youtube}`
             }
           },
@@ -869,7 +869,7 @@ case 'allmenu':
 	var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒",
               "url": `${youtube}`
             }
           },
