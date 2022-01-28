@@ -89,17 +89,18 @@ exports.menunya = (salam, pushname) =>{
 	return`Hai ${pushname} 🗿 selamat ${salam}  , 
 ╭─────[ *PERATURAN* ]─────✧
 ┴
-│¹ Dilarang Hina Bot / Ownerq
-│² Dilarang Spam Commands
-│³ Dilarang Kirim Virtex / Virkon
-│⁴ Dilarang Spam Menu Gak Jelas
-│⁵ Dilarang Telpon / Vc bot
-│⁶ Dilarang Culik Bot / Trial 2 Day
-│⁷ Dilarang Promosi
-│⁸ Dilarang Meniru pesan Bot
-│⁹ Bot Tidak Menerima Save Kontak 🗿
-│¹⁰ Dilarang Chat Owner Ga Jelas
-│¹¹ No plagiat
+│BOT Aktif Jam 22:00 Sampai 08:00 Pagi
+│*¹ Dilarang Hina Bot / Ownerku*
+│*² Dilarang Spam Commands*
+│*³ Dilarang Kirim Virtex / Virkon*
+│*⁴ Dilarang Spam Menu Gak Jelas*
+│*⁵ Dilarang Telpon / Vc bot*
+│*⁶ Dilarang Culik Bot / Trial 2 Day*
+│*⁷ Dilarang Promosi*
+│*⁸ Dilarang Meniru pesan Bot*
+│*⁹ Bot Tidak Menerima Save Kontak 🗿*
+│*¹⁰ Dilarang Chat Owner Ga Jelas*
+│*¹¹ No plagiat*
 ┬
 ╰──────────···
 
@@ -165,7 +166,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}tourl [image/video]
 ├ ${prefix}togif [sticker]
 ├ ${prefix}tomp4 [sticker]
-╰❒${prefix}toimg [reply sticker]
+╰❒ ${prefix}toimg [reply sticker]
 
 
 ╭─❒ 「 Image Effect 」 💉
