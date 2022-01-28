@@ -66,8 +66,7 @@ const  { ind } = require(`./language`)
 lang = ind //language
 enter = '\n'
 typemenu = 'templateLocation'
-moment.tz.setDefault("Asia/Jakarta").locale("id");
-
+moment.tz.setDefault("Asia/Jakarta").locale("id"); 
 module.exports = alpha = async (alpha, m, chatUpdate) => {
     try {
         var body = (m.mtype === 'conversation') ? m.message.conversation : (m.mtype == 'imageMessage') ? m.message.imageMessage.caption : (m.mtype == 'videoMessage') ? m.message.videoMessage.caption : (m.mtype == 'extendedTextMessage') ? m.message.extendedTextMessage.text : (m.mtype == 'buttonsResponseMessage') ? m.message.buttonsResponseMessage.selectedButtonId : (m.mtype == 'listResponseMessage') ? m.message.listResponseMessage.singleSelectReply.selectedRowId : (m.mtype == 'templateButtonReplyMessage') ? m.message.templateButtonReplyMessage.selectedId : (m.mtype === 'messageContextInfo') ? m.message.buttonsResponseMessage.selectedButtonId : ''
@@ -633,7 +632,7 @@ break
                 if (!m.isGroup) return reply(lang.groupOnly())
                 if (!isGroupAdmins) return reply(lang.adminOnly())
                 if (!isBotAdmins) return reply(lang.botNotAdmin())
-                let tekss = `══✪〘 *👥 Mention All* 〙✪══\n\n➲ *Message : ${q ? q : 'Nothing'}*\n\n`
+                let tekss = `══✪〘 *Gabut Tagall* 〙✪══\n\n➲ *Message : ${q ? q : 'Nothing'}*\n\n`
 		      	for (let mem of participants) {
 		            tekss += `࿃➡️ @${mem.id.split('@')[0]}\n`
 				}
@@ -926,8 +925,8 @@ case 'ownercmd': case'ownermenu':
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
-"id": 'owner'
+              "displayText": "Waifu",
+"id": 'waifu'
             }
           },
 {
