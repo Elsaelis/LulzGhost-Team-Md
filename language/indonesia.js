@@ -95,6 +95,32 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 *⌚Time Server : ${time}*
 *📚 List-Menu :*
 
+╭─────[ *RULES* ]─────✧
+┴
+│¹ Dilarang Hina Bot / Owner
+│² Dilarabg Spam Commands
+│³ Dilarang Kirim Virtex / Virkon
+│⁴ Dilarang Spam Menu Gak Jelas
+│⁵ Dilarang Telpon / Vc bot
+│⁶ Dilarang Culik Bot / Trial 2 Day
+│⁷ Dilarang Promosi
+│⁸ Dilarang Meniru pesan Bot
+│⁹ Bot Tidak Menerima Save Kontak 🗿
+│¹⁰ Dilarang Chat Owner Ga Jelas
+│¹¹ No plagiat
+┬
+╰──────────···
+
+╭─────[ *HUKUMAN* ]─────✧
+┴
+│ 1 & 11 = Block + banned permanent 🗿
+│ 2,4,6 & 8 = Banned sementara ✌
+│ 3 = War 👻
+│ 5 = Block sementara ✨
+│ 9 & 10 = Block permanent 🗿
+┬
+╰──────────···
+
 ╭─❒ 「 Owner 」 💉
 ├ < evaluate
 ├ > evaluate
