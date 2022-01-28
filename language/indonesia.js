@@ -118,9 +118,10 @@ exports.menunya = (salam, pushname) =>{
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname} 😷*
 *⌚Time Server : ${time}*
-*📚 List-Menu :*
+*📚 Cara terbaik untuk memulai adalah dengan berhenti berbicara dan mulai melakukan.*
 
 ╭──❒  [ Owner 」 💉
+├ Lelah tidak pernah dirasakan oleh mereka yang tidak mau berusaha.
 ├ < evaluate
 ├ > evaluate
 ├ $ exec
@@ -136,6 +137,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}setppbot [reply image]
 
 ╭─❒ 「 Group 」 💉
+├ Dinding terbesar yang harus kamu panjat adalah yang kamu bangun di benakmu
 ├ ${prefix}antilink [on/off]
 ├ ${prefix}linkgc
 ├ ${prefix}group [open/close]
@@ -143,6 +145,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}hidetag [text]
 
 ╭─❒ 「 Anime 」 💉
+├ Jangan kecewa merasa lelah, justru ia menjadi pengingat terbaik untuk targetmu.
 ├ ${prefix}quotesanime
 ├ ${prefix}anime [query]
 ├ ${prefix}manga [query]
@@ -150,6 +153,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 
 ╭─❒ 「 Search 」 💉
+├ Kamu tak akan bisa menjadi seorang pecundang,sampai kamu benar-benar berhenti untuk mencoba.
 ├ ${prefix}ytsearch [query]
 ├ ${prefix}film [query]
 ├ ${prefix}wallpaper [query]
@@ -170,6 +174,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 
 ╭─❒ 「 Image Effect 」 💉
+├ Hidupmu memang tak pernah sempurna. Namun Kamu bisa membuatnya menjadi lengkap, jika selalu berterima kasih.
 ├ ${prefix}wanted [reply image]
 ├ ${prefix}utatoo [reply image]
 ├ ${prefix}unsharpen [reply image]
@@ -226,6 +231,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 
 ╭─❒ 「 Download 」 💉
+├ Hidup ini penuh perjuangan dalam perjalanan berjuang impian adalah bensin yang membakar semangat kita menuju impian dan cita-cita.
 ├ ${prefix}tiktok [link]
 ├ ${prefix}tiktoknowm [link]
 ├ ${prefix}tiktokwm [link]
@@ -250,6 +256,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 
 ╭─❒ 「 Random Anime 」💉
+├ Galau itu wajar dan normal karena ia adalah proses penyesuaian diri dengan kehidupan yang lebih berkelas.
 ├ ${prefix}loli
 ├ ${prefix}neko
 ├ ${prefix}waifu
@@ -283,6 +290,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}cringe
 
 ╭─❒ 「 Nsfw & Sfw 」💉
+├ Love yourself instead of loving the idea of other people loving you.
 ├ ${prefix}ahegao
 ├ ${prefix}ass
 ├ ${prefix}bdsm
@@ -363,6 +371,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}zettai
 
 ╭─❒ 「 Textpro Menu 」💉
+├ Dorong dirimu sendiri, karena tidak ada orang lain yang akan melakukannya untukmu.
 ├ ${prefix}halloween2 text|text2
 ├ ${prefix}horror text|text2
 ├ ${prefix}game8bit text|text2
