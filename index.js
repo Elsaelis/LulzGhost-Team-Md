@@ -778,13 +778,13 @@ var but = [
           },
           {
             "quickReplyButton": {
-              "displayText": "🌹𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "🌹 𝑂𝑤𝑛𝑒𝑟 🌹",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "📌Katalog",
+              "displayText": "📌Semuanya 📌",
 "id": 'command'
             }
           }
@@ -888,7 +888,7 @@ case 'allmenu':
           },
           {
             "quickReplyButton": {
-              "displayText": "😎𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "😎 𝑂𝑤𝑛𝑒𝑟 😎",
 "id": 'owner'
             }
           },
@@ -925,8 +925,8 @@ case 'ownercmd': case'ownermenu':
           },
           {
             "quickReplyButton": {
-              "displayText": "Waifu",
-"id": 'waifu'
+              "displayText": "👻 Waifu 👻",
+"id": 'animemenu'
             }
           },
 {
