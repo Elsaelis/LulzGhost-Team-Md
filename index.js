@@ -772,19 +772,19 @@ var but = [
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'donate'
+              "displayText": "Waifu",
+"id": 'waifu'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "🌹𝑂𝑤𝑛𝑒𝑟",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝑐𝑜𝑚𝑚𝑎𝑛𝑑",
+              "displayText": "📌Katalog",
 "id": 'command'
             }
           }
@@ -882,19 +882,19 @@ case 'allmenu':
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'donate'
+              "displayText": "Loli",
+"id": 'loli'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "😎𝑂𝑤𝑛𝑒𝑟",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "𝑅𝑢𝑙𝑒𝑠",
+              "displayText": "Peraturan",
 "id": 'rules'
             }
           }
