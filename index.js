@@ -103,14 +103,14 @@ module.exports = alpha = async (alpha, m, chatUpdate) => {
         //const isGroupOwner = m.isGroup ? groupOwner.includes(m.sender) : false
         const mentionUser = [...new Set([...(m.mentionedJid || []), ...(m.quoted ? [m.quoted.sender] : [])])]
 
-		const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: fs.readFileSync(setting.thumbnail), surface: 200, message: `© ${ownername}`, orderTitle: 'FATIHmek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+		const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289695073357-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: fs.readFileSync(setting.thumbnail), surface: 200, message: `© ${ownername}`, orderTitle: 'WHY NEKELL', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 		const fdoc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `© ${ownername}`,jpegThumbnail: setting.thumbnail}}}
-		const fvn = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: { "audioMessage": {"mimetype":"audio/ogg; codecs=opus","seconds":359996400,"ptt": "true"}} } 
-		const fgif = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title":`© ${ownername}`, "h": `Hmm`,'seconds': '359996400', 'gifPlayback': 'true', 'caption': `© ${ownername}`, 'jpegThumbnail': fs.readFileSync(setting.thumbnail)}}}
-		const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "m","groupName": "P", "caption": `© ${ownername}`, 'jpegThumbnail': fs.readFileSync(setting.thumbnail)}}}
-		const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}) },message: { "videoMessage": { "title":`${pushname}`, "h": `Hmm`,'seconds': '359996400', 'caption': `${pushname}`, 'jpegThumbnail': fs.readFileSync(setting.thumbnail)}}}
+		const fvn = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289695073357-1613049930@g.us" } : {})},message: { "audioMessage": {"mimetype":"audio/ogg; codecs=opus","seconds":359996400,"ptt": "true"}} } 
+		const fgif = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289695073357-1613049930@g.us" } : {})},message: {"videoMessage": { "title":`© ${ownername}`, "h": `Hmm`,'seconds': '359996400', 'gifPlayback': 'true', 'caption': `© ${ownername}`, 'jpegThumbnail': fs.readFileSync(setting.thumbnail)}}}
+		const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6289695073357-1616169743@g.us","inviteCode": "m","groupName": "P", "caption": `© ${ownername}`, 'jpegThumbnail': fs.readFileSync(setting.thumbnail)}}}
+		const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289695073357-1613049930@g.us" } : {}) },message: { "videoMessage": { "title":`${pushname}`, "h": `Hmm`,'seconds': '359996400', 'caption': `${pushname}`, 'jpegThumbnail': fs.readFileSync(setting.thumbnail)}}}
 		const floc = {key : {participant : '0@s.whatsapp.net'},message: {locationMessage: {name: `${ownername}`,jpegThumbnail: setting.thumbnail}}}
-		const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: `6283136505591-1614953337@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `${pushname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync(setting.thumbnail), thumbnail: fs.readFileSync(setting.thumbnail),sendEphemeral: true}}}
+		const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: `6289695073357-1614953337@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `${pushname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync(setting.thumbnail), thumbnail: fs.readFileSync(setting.thumbnail),sendEphemeral: true}}}
 		
 		const reply = async (teks) => {
 			return await alpha.sendFakeLink(m.chat,teks,salam, pushname,ownername, thumbnail, myweb, m)
@@ -375,13 +375,13 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "「 📌 YOUTUBE 📌 」",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "「 📍 WEBSITE 📍  」",              
               "url": `${myweb}`
 
             }
@@ -759,13 +759,13 @@ if(m.isGroup){
 var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒",
+              "displayText": "「 📍 YOUTUBE 📍 」",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website",              
+              "displayText": "「 📌 WEBSITE 📌 」",              
               "url": `${myweb}`
 
             }
@@ -795,13 +795,13 @@ var but = [
          but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒",
+              "displayText": "「 📍 YOUTUBE 📍 」",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website",              
+              "displayText": "「 📌 WEBSITE 📌 」",              
               "url": `${myweb}`
 
             }
@@ -831,13 +831,13 @@ var but = [
 var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "「 📌 YOUTUBE 📌 」",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "「 📍 WEBSITE 📍 」",              
               "url": `${myweb}`
 
             }
@@ -869,13 +869,13 @@ case 'allmenu':
 	var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒",
+              "displayText": "「 📍 YOUTUBE 📍 」",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Website",              
+              "displayText": "「 📌 WEBSITE 📌 」",              
               "url": `${myweb}`
 
             }
@@ -906,13 +906,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "「 📌 YOUTUBE 📌 」",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "「 📍 WEBSITE 📍  」",              
               "url": `${myweb}`
 
             }
@@ -943,13 +943,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "「 📌 YOUTUBE 📌 」",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "「 📍 WEBSITE 📍  」",              
               "url": `${myweb}`
 
             }
@@ -980,13 +980,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "「 📌 YOUTUBE 📌 」",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "「 📍 WEBSITE 📍  」",              
               "url": `${myweb}`
 
             }
@@ -1017,13 +1017,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "「 📌 YOUTUBE 📌 」",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "「 📍 WEBSITE 📍  」",              
               "url": `${myweb}`
 
             }
@@ -1054,13 +1054,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "「 📌 YOUTUBE 📌 」",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "「 📍 WEBSITE 📍  」",              
               "url": `${myweb}`
 
             }
@@ -1091,13 +1091,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "「 📌 YOUTUBE 📌 」",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "「 📍 WEBSITE 📍  」",              
               "url": `${myweb}`
 
             }
@@ -1128,13 +1128,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "「 📌 YOUTUBE 📌 」",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "「 📍 WEBSITE 📍  」",              
               "url": `${myweb}`
 
             }
@@ -1165,13 +1165,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "「 📌 YOUTUBE 📌 」",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "「 📍 WEBSITE 📍  」",              
               "url": `${myweb}`
 
             }
@@ -1202,13 +1202,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "「 📌 YOUTUBE 📌 」",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "「 📍 WEBSITE 📍  」",              
               "url": `${myweb}`
 
             }
@@ -1239,13 +1239,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "「 📌 YOUTUBE 📌 」",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "「 📍 WEBSITE 📍  」",              
               "url": `${myweb}`
 
             }
@@ -1277,13 +1277,13 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "「 📌 YOUTUBE 📌 」",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "「 📍 WEBSITE 📍  」",              
               "url": `${myweb}`
 
             }
@@ -1315,13 +1315,13 @@ case 'nsfwcmd': case 'nsfwcommand':{
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "「 📌 YOUTUBE 📌 」",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "「 📍 WEBSITE 📍  」",              
               "url": `${myweb}`
 
             }
