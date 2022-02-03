@@ -375,7 +375,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             var but = [
           {
             "urlButton": {
-              "displayText": "「 📌 YOUTUBE 📌 」",
+              "displayText": "「 📌 SOURCE CODE 📌 」",
               "url": `${youtube}`
             }
           },
@@ -400,7 +400,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐿𝑖𝑠𝑡 𝑐𝑜𝑚𝑚𝑎𝑛𝑑",
+              "displayText": "⋮☰ SEMUA",
 "id": 'command'
             }
           }
@@ -759,7 +759,7 @@ if(m.isGroup){
 var but = [
           {
             "urlButton": {
-              "displayText": "「 📍 Source Code 📍 」",
+              "displayText": "「 📍 SOURCE CODE 📍 」",
               "url": `${youtube}`
             }
           },
@@ -795,7 +795,7 @@ var but = [
          but = [
           {
             "urlButton": {
-              "displayText": "「 📍 YOUTUBE 📍 」",
+              "displayText": "「 📍 SOURCE CODE 📍 」",
               "url": `${youtube}`
             }
           },
@@ -820,7 +820,7 @@ var but = [
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐿𝑖𝑠𝑡 𝑐𝑜𝑚𝑚𝑎𝑛𝑑",
+              "displayText": "⋮☰ SEMUA",
 "id": 'command'
             }
           }
@@ -869,7 +869,7 @@ case 'allmenu':
 	var but = [
           {
             "urlButton": {
-              "displayText": "「 📍 Source Code 📍 」",
+              "displayText": "「 📍 SOURCE CODE 📍 」",
               "url": `${youtube}`
             }
           },
@@ -882,19 +882,19 @@ case 'allmenu':
           },
           {
             "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+              "displayText": "D O N A S I",
 "id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
+              "displayText": "O W N E R",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "⋮☰ PERATURAN",
+              "displayText": "⋮☰ PERATURAN ⋮☰",
 "id": 'rules'
             }
           }
@@ -906,7 +906,7 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "「 📌 YOUTUBE 📌 」",
+              "displayText": "「 📌 SOURCE CODE 📌 」",
               "url": `${youtube}`
             }
           },
@@ -931,7 +931,7 @@ case 'ownercmd': case'ownermenu':
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "Kembali Ke ⋮☰ MENU",
 "id": 'command'
             }
           }
@@ -943,7 +943,7 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "「 📌 YOUTUBE 📌 」",
+              "displayText": "「 📌 SOURCE CODE 📌 」",
               "url": `${youtube}`
             }
           },
@@ -968,7 +968,7 @@ case 'ownercmd': case'ownermenu':
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "Kembali Ke ⋮☰ Dashboard",
 "id": 'command'
             }
           }
@@ -980,7 +980,7 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "「 📌 YOUTUBE 📌 」",
+              "displayText": "「 📌 SOURCE CODE 📌 」",
               "url": `${youtube}`
             }
           },
@@ -1005,7 +1005,7 @@ case 'ownercmd': case'ownermenu':
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "Kembali Ke ⋮☰ Dashboard",
 "id": 'command'
             }
           }
@@ -1042,7 +1042,7 @@ case 'ownercmd': case'ownermenu':
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "Kembali Ke ⋮☰ Dashboard",
 "id": 'command'
             }
           }
@@ -1079,7 +1079,7 @@ case 'ownercmd': case'ownermenu':
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "Kembali Ke ⋮☰ Dashboard",
 "id": 'command'
             }
           }
@@ -1116,7 +1116,7 @@ case 'ownercmd': case'ownermenu':
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "Kembali Ke ⋮☰ Dashboard",
 "id": 'command'
             }
           }
@@ -1153,7 +1153,7 @@ case 'ownercmd': case'ownermenu':
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "Kembali Ke ⋮☰ Dashboard",
 "id": 'command'
             }
           }
@@ -1190,7 +1190,7 @@ case 'ownercmd': case'ownermenu':
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "Kembali Ke ⋮☰ Dashboard",
 "id": 'command'
             }
           }
@@ -1227,7 +1227,7 @@ case 'ownercmd': case'ownermenu':
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "Kembali Ke ⋮☰ Dashboard",
 "id": 'command'
             }
           }
@@ -1264,7 +1264,7 @@ case 'ownercmd': case'ownermenu':
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "Kembali Ke ⋮☰ Dashboard",
 "id": 'command'
             }
           }
@@ -1302,7 +1302,7 @@ case 'ownercmd': case'ownermenu':
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "Kembali Ke ⋮☰ Dashboard",
 "id": 'command'
             }
           }
@@ -1340,7 +1340,7 @@ case 'nsfwcmd': case 'nsfwcommand':{
           },
 {
             "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
+              "displayText": "Kembali Ke ⋮☰ Dashboard",
 "id": 'command'
             }
           }
