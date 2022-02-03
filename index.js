@@ -759,7 +759,7 @@ if(m.isGroup){
 var but = [
           {
             "urlButton": {
-              "displayText": "「 📍 YOUTUBE 📍 」",
+              "displayText": "「 📍 Source Code 📍 」",
               "url": `${youtube}`
             }
           },
@@ -772,19 +772,19 @@ var but = [
           },
           {
             "quickReplyButton": {
-              "displayText": "Waifu",
+              "displayText": "🌹 Waifu 🌹",
 "id": 'waifu'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "🌹 𝑂𝑤𝑛𝑒𝑟 🌹",
+              "displayText": "👻 𝑂𝑤𝑛𝑒𝑟",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "📌Semuanya 📌",
+              "displayText": "⋮☰ SEMUA",
 "id": 'command'
             }
           }
@@ -869,7 +869,7 @@ case 'allmenu':
 	var but = [
           {
             "urlButton": {
-              "displayText": "「 📍 YOUTUBE 📍 」",
+              "displayText": "「 📍 Source Code 📍 」",
               "url": `${youtube}`
             }
           },
@@ -882,19 +882,19 @@ case 'allmenu':
           },
           {
             "quickReplyButton": {
-              "displayText": "Loli",
-"id": 'loli'
+              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
+"id": 'donate'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "😎 𝑂𝑤𝑛𝑒𝑟 😎",
+              "displayText": "𝑂𝑤𝑛𝑒𝑟",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "Peraturan",
+              "displayText": "⋮☰ PERATURAN",
 "id": 'rules'
             }
           }
@@ -925,8 +925,8 @@ case 'ownercmd': case'ownermenu':
           },
           {
             "quickReplyButton": {
-              "displayText": "👻 Waifu 👻",
-"id": 'animemenu'
+              "displayText": "Waifu",
+"id": 'waifu'
             }
           },
 {
