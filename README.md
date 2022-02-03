@@ -1,32 +1,16 @@
 <p align="center">
-<img src="https://github.com/zeeoneofc/Alphabot-Md/blob/v5/image/lol.jpg" alt="ALPHA BOT" width="100"/>
-
-
+<a href="https://ibb.co/Np4whkm"><img src="https://i.ibb.co/gwns1XP/lonte.jpg" alt="lonte" border="0"></a>
 </p>
 <p align="center">
-<a href="#"><img title="ALPHABOT MULTI DEVICE" src="https://img.shields.io/badge/ALPHABOT MULTI DEVICE-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
-<p align="center">
-<a href="https://github.com/DikaArdnt"><img title="Author" src="https://img.shields.io/badge/Author-Dika-red.svg?style=for-the-badge&logo=github"></a>
-<a href="https://github.com/zeeoneofc/Alphabot-Md"><img title="Recode" src="https://img.shields.io/badge/Recode-ZeeoneOfc-red.svg?style=for-the-badge&logo=github"></a>
-</p>
-<p align="center">
-<a href="https://github.com/zeeoneofc/followers"><img title="Followers" src="https://img.shields.io/github/followers/zeeoneofc?color=red&style=flat-square"></a>
-<a href="https://github.com/zeeoneofc/Alphabot-Md/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/zeeoneofc/Alphabot-Md?color=blue&style=flat-square"></a>
-<a href="https://github.com/zeeoneofc/Alphabot-Md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/zeeoneofc/Alphabot-Md?color=red&style=flat-square"></a>
-<a href="https://github.com/zeeoneofc/Alphabot-Md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/zeeoneofc/Alphabot-Md?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/zeeoneofc/Alphabot-Md"><img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
-<a href="https://github.com/zeeoneofc/Alphabot-Md/"><img title="Size" src="https://img.shields.io/github/repo-size/zeeoneofc/Alphabot-Md?style=flat-square&color=green"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzeeoneofc%2FAlphabot-Md&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/zeeoneofc/Alphabot-Md/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+<a href="https://github.com/koleksibot"><img title="Author" src="https://img.shields.io/badge/Author-Koleksibot-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/zeeoneofc/Alphabot-Md#requirements">Requirements</a> •
-  <a href="https://github.com/zeeoneofc/Alphabot-Md#instalasi">Installation</a> •
-  <a href="https://github.com/zeeoneofc/Alphabot-Md#thanks-to">Thanks to</a> •
-  <a href="https://github.com/zeeoneofc/Alphabot-Md#Official-Group"> Official Group Bot</a> •
-  <a href="https://github.com/zeeoneofc/Alphabot-Md#donate">Donate</a>
+  <a href="https://github.com/koleksibot/LulzGhost-Team-Md#requirements">Requirements</a> •
+  <a href="https://github.com/koleksibot/LulzGhost-Team-Md#instalasi">Installation</a> •
+  <a href="https://github.com/koleksibot/LulzGhost-Team-Md#thanks-to">Thanks to</a> •
+  <a href="https://github.com/koleksibot/LulzGhost-Team-Md#Official-Group"> Official Group Bot</a> •
+  <a href="https://github.com/koleksibot/LulzGhost-Team-Md#donate">Donate</a>
 </p>
 </div>
 
@@ -34,12 +18,11 @@
 ---
 
 ## Information
-> Alpahbot-Md adalah bot yang awalnya memakai base dari [Chikabot](https://github.com/rashidsiregar28/chikabot/blob/main/README.md), sekarang pindah base [Hisoka-Morou](https://github.com/DikaArdnt/Hisoka-Morou). Alphabot-Md is a bot whatsapp using a Baileys library.
+> LulzGhost-Team.Md adalah bot yang awalnya memakai base dari [Chikabot](https://github.com/rashidsiregar28/chikabot/blob/main/README.md), sekarang pindah base [Hisoka-Morou](https://github.com/DikaArdnt/Hisoka-Morou). koleksibot/LulzGhost-Team.Md is a bot whatsapp using a Baileys library.
 > Jika kamu menemukan semacam bug, harap untuk dimaklumi sementara
 
 ## Bugs and Tester
 * Jika kamu menemukan bug jangan lupa buka Issues
-* Info Lebih Lanjut, Chat [owner-alpha](https://wa.me/62887435047326)
 
 # Requirements
 * [Node.js](https://nodejs.org/en/)
@@ -56,8 +39,8 @@
 
 ## For Windows/RDP
 ```bash
-git clone https://github.com/zeeoneofc/Alphabot-Md.git
-cd Alphabot-Md
+git clone https://github.com/koleksibot/LulzGhost-Team-Md.git
+cd LulzGhost-Team-Md
 npm install
 node main
 ```
@@ -66,18 +49,11 @@ node main
 termux-setup-storage
 apt update && apt upgrade
 pkg install nodejs git ffmpeg
-git clone https://github.com/zeeoneofc/Alphabot-Md.git
-cd Alphabot-Md
+git clone https://github.com/koleksibot/LulzGhost-Team-Md.git
+cd LulzGhost-Team-Md
 npm install
 node main
 ```
-
-## Edit file
-- Change ownerNumber on [this section](https://github.com/zeeoneofc/aAlphabot-Md/blob/7a7ebe69cf44686d8a577f616b38b5d299ffefcc/config.json#L2)
-- Change botName on [this section](https://github.com/zeeoneofc/Alphabot-Md/blob/7a7ebe69cf44686d8a577f616b38b5d299ffefcc/config.json#L3)
-- You can edit list and display menu or donate on [this section](https://github.com/zeeoneofc/Alphabot-Md/blob/main/help/ind.js)
-- You can add fiture on [this section](https://github.com/zeeoneofc/Alphabot-Md/tree/main/message)
-
 
 ## Installing the FFmpeg for Windows
 * Unduh salah satu versi FFmpeg yang tersedia dengan mengklik [di sini](https://www.gyan.dev/ffmpeg/builds/).
@@ -94,16 +70,16 @@ Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was sa
 > ffmpeg -version
 ```
 
-## Donate
-- [Saweria](https://saweria.co/zeeoneofc)
-- [Dana](https://j.top4top.io/p_20532posd1.jpg)
-- [Ovo](https://h.top4top.io/p_2053vk0uw1.jpg)
-- [Gopay](https://i.top4top.io/p_2053em3vh1.jpg)
+## Demo BOT
+
+- <a href="https://ibb.co/qyDrYv1"><img src="https://i.ibb.co/BzfC29s/Screenshot-2022-02-03-21-00-50.jpg" alt="Screenshot-2022-02-03-21-00-50" border="0"></a>
+<a href="https://ibb.co/ng5MXkh"><img src="https://i.ibb.co/f1Pd30m/Screenshot-2022-02-03-21-00-41.jpg" alt="Screenshot-2022-02-03-21-00-41" border="0"></a>
+<a href="https://ibb.co/Np4whkm"><img src="https://i.ibb.co/gwns1XP/lonte.jpg" alt="lonte" border="0"></a>
 
 # Official Group
-- [Alphabot 1](https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV)
-- [Alphabot 2](https://chat.whatsapp.com/E8NExJwIbhBJYzssfqJNsE)
-- [Alphabot 3](https://chat.whatsapp.com/KCSqHTky1apG7ApePsfiPy)
+- [FULL](https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV)
+- [FULL](https://chat.whatsapp.com/E8NExJwIbhBJYzssfqJNsE)
+- [BELUM](https://chat.whatsapp.com/KCSqHTky1apG7ApePsfiPy)
 
 
 # Thanks to
@@ -120,4 +96,3 @@ For Help | Owner Chikabot |
 <a href="https://github.com/adiwajshing"><img src="https://github.com/adiwajshing.png?size=100" width="100" height="100"></a> | [![FAJAR](http://github.com/xfar05.png?size=100)](http://github.com/xfar05) 
 [Adiwajshing](https://github.com/adiwajshing) | [Fabil](https://github.com/xfar05)
 Owner of Baileys | Owner of X-Far api |
-
