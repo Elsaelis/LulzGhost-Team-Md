@@ -120,11 +120,6 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 ║│➸ *2Minggu*: _20K_
 ║╰──────────────────
 ╠════════════════════
-║         *Minat Hubungi*
-║  ▌│█║▌║▌║║▌║▌║█│▌
-║  ▌│█║▌║▌║║▌║▌║█│▌
-║         *Ownwer*
-╠════════════════════
 ║ _*POWERED BY WHATSAPPS*_
 ╚════════════════════
 
@@ -141,16 +136,11 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 ║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
 ║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
 ╠════════════════════
-╠════════════════════
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname} 😷*
 *⌚Time Server : ${time}*
-╠════════════════════
-║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
-║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
-╠════════════════════
 ╭──❒  [ Owner 」 💉
 ├ Lelah tidak pernah dirasakan oleh mereka yang tidak mau berusaha.
 ├ < evaluate
@@ -604,7 +594,7 @@ exports.rules = (prefix) => {
     return `
 ╭─────[ *PERATURAN* ]─────✧
 ┴
-│¹ Dilarang Hina Bot / Ownerq
+│¹ Dilarang Hina Bot / Owner
 │² Dilarang Spam Commands
 │³ Dilarang Kirim Virtex / Virkon
 │⁴ Dilarang Spam Menu Gak Jelas
@@ -663,11 +653,30 @@ Arigatou Gozaimasu! Untuk kalian user ramah
 }
 exports.welcome = () =>{
 	return`Selamat Datang Di Grup
-	
-╠════════════════════
-║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
-║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
-╠════════════════════
+╭─────[ *PERATURAN* ]─────✧
+┴
+│¹ Dilarang Hina Bot / Owner
+│² Dilarang Spam Commands
+│³ Dilarang Kirim Virtex / Virkon
+│⁴ Dilarang Spam Menu Gak Jelas
+│⁵ Dilarang Telpon / Vc bot
+│⁶ Dilarang Culik Bot / Trial 2 Day
+│⁷ Dilarang Promosi
+│⁸ Dilarang Meniru pesan Bot
+│⁹ Bot Tidak Menerima Save Kontak 🗿
+│¹⁰ Dilarang Chat Owner Ga Jelas
+│¹¹ No plagiat
+┬
+╰──────────···
+
+╭─────[ *HUKUMAN* ]─────✧
+┴
+│ 1 & 11 = Block + banned permanent 🗿
+│ 2,4,6 & 8 = Banned sementara ✌
+│ 3 = War 👻
+│ 5 = Block sementara ✨
+│ 9 & 10 = Block permanent 🗿
+┬	
 ╰ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
 }
 exports.leave = () =>{
